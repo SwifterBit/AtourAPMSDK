@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8039AE5E2580BB0700195450 /* AASystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8039AE5C2580BB0700195450 /* AASystemInfo.h */; };
+		8039AE5F2580BB0700195450 /* AASystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039AE5D2580BB0700195450 /* AASystemInfo.m */; };
+		8039AE682580BDCF00195450 /* AACPUUsage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8039AE662580BDCF00195450 /* AACPUUsage.h */; };
+		8039AE692580BDCF00195450 /* AACPUUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039AE672580BDCF00195450 /* AACPUUsage.m */; };
+		8039AE6D2580BDE700195450 /* AARAMUsage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8039AE6B2580BDE700195450 /* AARAMUsage.h */; };
+		8039AE6E2580BDE700195450 /* AARAMUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039AE6C2580BDE700195450 /* AARAMUsage.m */; };
+		8039AECE2581F63300195450 /* AASystemMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8039AECC2581F63300195450 /* AASystemMonitor.h */; };
+		8039AECF2581F63300195450 /* AASystemMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039AECD2581F63300195450 /* AASystemMonitor.m */; };
+		8039AED62581FFC400195450 /* AANetworkFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 8039AED42581FFC400195450 /* AANetworkFlow.h */; };
+		8039AED72581FFC400195450 /* AANetworkFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039AED52581FFC400195450 /* AANetworkFlow.m */; };
+		8039AEDC2582092500195450 /* AAFPSMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8039AEDA2582092500195450 /* AAFPSMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8039AEDD2582092500195450 /* AAFPSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039AEDB2582092500195450 /* AAFPSMonitor.m */; };
+		8039AF4825820A3F00195450 /* AAWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8039AF4625820A3F00195450 /* AAWeakProxy.h */; };
+		8039AF4925820A3F00195450 /* AAWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039AF4725820A3F00195450 /* AAWeakProxy.m */; };
+		8039AF502582251900195450 /* AACacheBySqlite.h in Headers */ = {isa = PBXBuildFile; fileRef = 8039AF4E2582251900195450 /* AACacheBySqlite.h */; };
+		8039AF512582251900195450 /* AACacheBySqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039AF4F2582251900195450 /* AACacheBySqlite.m */; };
+		8045E16C25874F6F00A8E30F /* AACallStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 8045E16A25874F6F00A8E30F /* AACallStack.h */; };
+		8045E16D25874F6F00A8E30F /* AACallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8045E16B25874F6F00A8E30F /* AACallStack.m */; };
+		8045E17225874F9000A8E30F /* AAANRMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8045E17025874F9000A8E30F /* AAANRMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8045E17325874F9000A8E30F /* AAANRMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8045E17125874F9000A8E30F /* AAANRMonitor.m */; };
+		8045E2E02589BEC800A8E30F /* AADateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8045E2DE2589BEC800A8E30F /* AADateFormatter.h */; };
+		8045E2E12589BEC800A8E30F /* AADateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8045E2DF2589BEC800A8E30F /* AADateFormatter.m */; };
+		804B93DD257F795900CADE6E /* AtourAPMSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 804B93DB257F795900CADE6E /* AtourAPMSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		804B941B257F7B8800CADE6E /* AtourAPMManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 804B9419257F7B8800CADE6E /* AtourAPMManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		804B941C257F7B8800CADE6E /* AtourAPMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B941A257F7B8800CADE6E /* AtourAPMManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8039AE7A2581C2B700195450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 804B93CF257F795900CADE6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 804B93D7257F795900CADE6E;
+			remoteInfo = AtourAPMSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8039AE5C2580BB0700195450 /* AASystemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AASystemInfo.h; sourceTree = "<group>"; };
+		8039AE5D2580BB0700195450 /* AASystemInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AASystemInfo.m; sourceTree = "<group>"; };
+		8039AE622580BCC000195450 /* AtourAPMPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtourAPMPrefixHeader.pch; sourceTree = "<group>"; };
+		8039AE662580BDCF00195450 /* AACPUUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AACPUUsage.h; sourceTree = "<group>"; };
+		8039AE672580BDCF00195450 /* AACPUUsage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AACPUUsage.m; sourceTree = "<group>"; };
+		8039AE6B2580BDE700195450 /* AARAMUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AARAMUsage.h; sourceTree = "<group>"; };
+		8039AE6C2580BDE700195450 /* AARAMUsage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AARAMUsage.m; sourceTree = "<group>"; };
+		8039AE722581C23E00195450 /* AtourAPMSDK-Universal */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = "AtourAPMSDK-Universal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8039AE742581C23E00195450 /* ContentInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ContentInfo.plist; sourceTree = "<group>"; };
+		8039AECC2581F63300195450 /* AASystemMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AASystemMonitor.h; sourceTree = "<group>"; };
+		8039AECD2581F63300195450 /* AASystemMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AASystemMonitor.m; sourceTree = "<group>"; };
+		8039AED42581FFC400195450 /* AANetworkFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AANetworkFlow.h; sourceTree = "<group>"; };
+		8039AED52581FFC400195450 /* AANetworkFlow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AANetworkFlow.m; sourceTree = "<group>"; };
+		8039AEDA2582092500195450 /* AAFPSMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAFPSMonitor.h; sourceTree = "<group>"; };
+		8039AEDB2582092500195450 /* AAFPSMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAFPSMonitor.m; sourceTree = "<group>"; };
+		8039AF4625820A3F00195450 /* AAWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAWeakProxy.h; sourceTree = "<group>"; };
+		8039AF4725820A3F00195450 /* AAWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAWeakProxy.m; sourceTree = "<group>"; };
+		8039AF4E2582251900195450 /* AACacheBySqlite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AACacheBySqlite.h; sourceTree = "<group>"; };
+		8039AF4F2582251900195450 /* AACacheBySqlite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AACacheBySqlite.m; sourceTree = "<group>"; };
+		8045E16A25874F6F00A8E30F /* AACallStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AACallStack.h; sourceTree = "<group>"; };
+		8045E16B25874F6F00A8E30F /* AACallStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AACallStack.m; sourceTree = "<group>"; };
+		8045E17025874F9000A8E30F /* AAANRMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAANRMonitor.h; sourceTree = "<group>"; };
+		8045E17125874F9000A8E30F /* AAANRMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAANRMonitor.m; sourceTree = "<group>"; };
+		8045E2DE2589BEC800A8E30F /* AADateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AADateFormatter.h; sourceTree = "<group>"; };
+		8045E2DF2589BEC800A8E30F /* AADateFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AADateFormatter.m; sourceTree = "<group>"; };
+		804B93D8257F795900CADE6E /* AtourAPMSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AtourAPMSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		804B93DB257F795900CADE6E /* AtourAPMSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtourAPMSDK.h; sourceTree = "<group>"; };
+		804B93DC257F795900CADE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804B9419257F7B8800CADE6E /* AtourAPMManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtourAPMManager.h; sourceTree = "<group>"; };
+		804B941A257F7B8800CADE6E /* AtourAPMManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtourAPMManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		804B93D5257F795900CADE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8039AE5A2580ADC200195450 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8039AE5C2580BB0700195450 /* AASystemInfo.h */,
+				8039AE5D2580BB0700195450 /* AASystemInfo.m */,
+				8039AF4625820A3F00195450 /* AAWeakProxy.h */,
+				8039AF4725820A3F00195450 /* AAWeakProxy.m */,
+				8039AF4E2582251900195450 /* AACacheBySqlite.h */,
+				8039AF4F2582251900195450 /* AACacheBySqlite.m */,
+				8045E2DE2589BEC800A8E30F /* AADateFormatter.h */,
+				8045E2DF2589BEC800A8E30F /* AADateFormatter.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8039AE5B2580B9B400195450 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				8039AE662580BDCF00195450 /* AACPUUsage.h */,
+				8039AE672580BDCF00195450 /* AACPUUsage.m */,
+				8039AE6B2580BDE700195450 /* AARAMUsage.h */,
+				8039AE6C2580BDE700195450 /* AARAMUsage.m */,
+				8039AECC2581F63300195450 /* AASystemMonitor.h */,
+				8039AECD2581F63300195450 /* AASystemMonitor.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		8039AE732581C23E00195450 /* AtourAPMSDK-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				8039AE742581C23E00195450 /* ContentInfo.plist */,
+			);
+			path = "AtourAPMSDK-Universal";
+			sourceTree = "<group>";
+		};
+		8039AED22581FB3300195450 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8039AED42581FFC400195450 /* AANetworkFlow.h */,
+				8039AED52581FFC400195450 /* AANetworkFlow.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8039AED32581FB3F00195450 /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+				8039AEDA2582092500195450 /* AAFPSMonitor.h */,
+				8039AEDB2582092500195450 /* AAFPSMonitor.m */,
+			);
+			path = FPS;
+			sourceTree = "<group>";
+		};
+		8045E15E2587489E00A8E30F /* ANR */ = {
+			isa = PBXGroup;
+			children = (
+				8045E16A25874F6F00A8E30F /* AACallStack.h */,
+				8045E16B25874F6F00A8E30F /* AACallStack.m */,
+				8045E17025874F9000A8E30F /* AAANRMonitor.h */,
+				8045E17125874F9000A8E30F /* AAANRMonitor.m */,
+			);
+			path = ANR;
+			sourceTree = "<group>";
+		};
+		804B93CE257F795900CADE6E = {
+			isa = PBXGroup;
+			children = (
+				804B93DA257F795900CADE6E /* AtourAPMSDK */,
+				8039AE732581C23E00195450 /* AtourAPMSDK-Universal */,
+				804B93D9257F795900CADE6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		804B93D9257F795900CADE6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				804B93D8257F795900CADE6E /* AtourAPMSDK.framework */,
+				8039AE722581C23E00195450 /* AtourAPMSDK-Universal */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		804B93DA257F795900CADE6E /* AtourAPMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				804B93DB257F795900CADE6E /* AtourAPMSDK.h */,
+				804B9419257F7B8800CADE6E /* AtourAPMManager.h */,
+				804B941A257F7B8800CADE6E /* AtourAPMManager.m */,
+				8045E15E2587489E00A8E30F /* ANR */,
+				8039AED32581FB3F00195450 /* FPS */,
+				8039AED22581FB3300195450 /* Network */,
+				8039AE5B2580B9B400195450 /* System */,
+				8039AE5A2580ADC200195450 /* Helper */,
+				804B93DC257F795900CADE6E /* Info.plist */,
+				8039AE622580BCC000195450 /* AtourAPMPrefixHeader.pch */,
+			);
+			path = AtourAPMSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		804B93D3257F795900CADE6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804B93DD257F795900CADE6E /* AtourAPMSDK.h in Headers */,
+				8039AE682580BDCF00195450 /* AACPUUsage.h in Headers */,
+				8039AEDC2582092500195450 /* AAFPSMonitor.h in Headers */,
+				8045E17225874F9000A8E30F /* AAANRMonitor.h in Headers */,
+				8039AECE2581F63300195450 /* AASystemMonitor.h in Headers */,
+				8039AE5E2580BB0700195450 /* AASystemInfo.h in Headers */,
+				8039AE6D2580BDE700195450 /* AARAMUsage.h in Headers */,
+				8039AED62581FFC400195450 /* AANetworkFlow.h in Headers */,
+				8039AF4825820A3F00195450 /* AAWeakProxy.h in Headers */,
+				804B941B257F7B8800CADE6E /* AtourAPMManager.h in Headers */,
+				8045E2E02589BEC800A8E30F /* AADateFormatter.h in Headers */,
+				8045E16C25874F6F00A8E30F /* AACallStack.h in Headers */,
+				8039AF502582251900195450 /* AACacheBySqlite.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8039AE712581C23E00195450 /* AtourAPMSDK-Universal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8039AE752581C23E00195450 /* Build configuration list for PBXNativeTarget "AtourAPMSDK-Universal" */;
+			buildPhases = (
+				8039AE702581C23E00195450 /* Resources */,
+				8039AE7C2581C2CE00195450 /* Combine Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8039AE7B2581C2B700195450 /* PBXTargetDependency */,
+			);
+			name = "AtourAPMSDK-Universal";
+			productName = "AtourAPMSDK-Universal";
+			productReference = 8039AE722581C23E00195450 /* AtourAPMSDK-Universal */;
+			productType = "com.apple.product-type.in-app-purchase-content";
+		};
+		804B93D7257F795900CADE6E /* AtourAPMSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804B93E0257F795900CADE6E /* Build configuration list for PBXNativeTarget "AtourAPMSDK" */;
+			buildPhases = (
+				804B93D3257F795900CADE6E /* Headers */,
+				804B93D4257F795900CADE6E /* Sources */,
+				804B93D5257F795900CADE6E /* Frameworks */,
+				804B93D6257F795900CADE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtourAPMSDK;
+			productName = AtourAPMSDK;
+			productReference = 804B93D8257F795900CADE6E /* AtourAPMSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		804B93CF257F795900CADE6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					8039AE712581C23E00195450 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					804B93D7257F795900CADE6E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 804B93D2257F795900CADE6E /* Build configuration list for PBXProject "AtourAPMSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 804B93CE257F795900CADE6E;
+			productRefGroup = 804B93D9257F795900CADE6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				804B93D7257F795900CADE6E /* AtourAPMSDK */,
+				8039AE712581C23E00195450 /* AtourAPMSDK-Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8039AE702581C23E00195450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804B93D6257F795900CADE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8039AE7C2581C2CE00195450 /* Combine Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Combine Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nUNIVERSAL_OUTPUTFOLDER=../build/\n\n# 创建输出目录，并删除之前的framework文件\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\"\n\n# 分别编译模拟器和真机的Framework\n xcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# 拷贝framework到univer目录\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# 合并framework，输出最终的framework到build目录\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		804B93D4257F795900CADE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8039AED72581FFC400195450 /* AANetworkFlow.m in Sources */,
+				8039AE692580BDCF00195450 /* AACPUUsage.m in Sources */,
+				804B941C257F7B8800CADE6E /* AtourAPMManager.m in Sources */,
+				8039AF512582251900195450 /* AACacheBySqlite.m in Sources */,
+				8045E2E12589BEC800A8E30F /* AADateFormatter.m in Sources */,
+				8045E17325874F9000A8E30F /* AAANRMonitor.m in Sources */,
+				8045E16D25874F6F00A8E30F /* AACallStack.m in Sources */,
+				8039AE6E2580BDE700195450 /* AARAMUsage.m in Sources */,
+				8039AF4925820A3F00195450 /* AAWeakProxy.m in Sources */,
+				8039AEDD2582092500195450 /* AAFPSMonitor.m in Sources */,
+				8039AECF2581F63300195450 /* AASystemMonitor.m in Sources */,
+				8039AE5F2580BB0700195450 /* AASystemInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8039AE7B2581C2B700195450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 804B93D7257F795900CADE6E /* AtourAPMSDK */;
+			targetProxy = 8039AE7A2581C2B700195450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8039AE762581C23E00195450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3BZHWFRBC;
+				INFOPLIST_FILE = "AtourAPMSDK-Universal/ContentInfo.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/InAppPurchaseContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Debug;
+		};
+		8039AE772581C23E00195450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3BZHWFRBC;
+				INFOPLIST_FILE = "AtourAPMSDK-Universal/ContentInfo.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/InAppPurchaseContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Release;
+		};
+		804B93DE257F795900CADE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		804B93DF257F795900CADE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		804B93E1257F795900CADE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A3BZHWFRBC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AtourAPMSDK/AtourAPMPrefixHeader.pch;
+				INFOPLIST_FILE = AtourAPMSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atour.AtourAPMSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		804B93E2257F795900CADE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A3BZHWFRBC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AtourAPMSDK/AtourAPMPrefixHeader.pch;
+				INFOPLIST_FILE = AtourAPMSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atour.AtourAPMSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8039AE752581C23E00195450 /* Build configuration list for PBXNativeTarget "AtourAPMSDK-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8039AE762581C23E00195450 /* Debug */,
+				8039AE772581C23E00195450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804B93D2257F795900CADE6E /* Build configuration list for PBXProject "AtourAPMSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804B93DE257F795900CADE6E /* Debug */,
+				804B93DF257F795900CADE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804B93E0257F795900CADE6E /* Build configuration list for PBXNativeTarget "AtourAPMSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804B93E1257F795900CADE6E /* Debug */,
+				804B93E2257F795900CADE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 804B93CF257F795900CADE6E /* Project object */;
+}
